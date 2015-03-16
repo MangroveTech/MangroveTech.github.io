@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Responsive Bootstrap App Landing Page">
+    <meta name="keywords" content="Neko, Bootstrap, App, Mobile, Landing page, Responsive theme, Responsive Template">
+    <meta name="author" content="Bhakti Al Akbar Pasaribu">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+    <!-- Add title to your website -->
+    <title>Wave - Email that works as fast as you do</title>
+
+    <!-- Connect the html files to css files -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/entypo.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/nivo-lightbox.css" rel="stylesheet">
+    <link href="css/nprogress.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/color-switcher.css" rel="stylesheet">
+         
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+
+    <!-- Linking to online google font Roboto -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>	
+	
+    <!-- Default theme color -->
+    <link rel="stylesheet" href="css/colors/blue.css" title="blue">
+    
+    <!-- Change CSS color. FOR DEMO ONLY -->
+    <link rel="alternate stylesheet" href="css/colors/green.css" title="green">
+    <link rel="alternate stylesheet" href="css/colors/purple.css" title="purple">
+    <link rel="alternate stylesheet" href="css/colors/yellow.css" title="yellow">
+    <link rel="alternate stylesheet" href="css/colors/red.css" title="red">
+    <link rel="alternate stylesheet" href="css/colors/orange.css" title="orange">
+    <link rel="alternate stylesheet" href="css/colors/brown.css" title="brown">
+    <link rel="alternate stylesheet" href="css/colors/pink.css" title="pink">
+    <!-- End of CSS color link -->
+    <script src="js/jquery.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-56284231-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+  </head>
+    
+  <body>
+      
+      <!-- Message notification -->
+      <em class="success">Your email has been sent successfully <span class="icon-cross close"></span></em>
+      
+	  <!-- BEGIN DIV #TOP-NAVBAR -->
+	  <nav id="top-navbar" class="navbar navbar-default navbar-fixed-top fade out" role="navigation">
+	  
+		<!-- Navbar header contains logo-navbar and toggle button -->  
+		<div class="navbar-header">
+			   
+			<!-- Button .navbar-toggle -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button><!-- end of Button .navbar-toggle -->
+            
+            <!-- Navbar logo -->
+			<a class="navbar-brand" href="./index.html"><img class="navbar-logo" src="img/blue-logo.jpg" alt="Navbar logo" ></a>
+
+            
+		</div><!-- end of div .navbar-header -->
+      
+		<!-- Div .navbar-collapse contains the list items, it collapse when you resize to mobile size -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			
+			<!-- Ul .nav contains the menu list such as home, features, ect. -->
+			<ul class="nav navbar-nav navbar-right">
+				<li class="nav-home"><a href="./index.html">Home</a></li>
+				<li class="nav-about"><a href="./about.html">About</a></li>
+        <li class="nav-blog"><a href="./blog.html">Blog</a></li>
+				<li class="hello"><a href="mailto:hello@waveapp.im">Contact</a></li>
+			</ul>
+            <!-- end of ul .nav -->
+                            <!-- <a href="#" class="get container-other-download">Get App</a> -->
+				
+		</div><!-- end of div .navbar-collapse -->
+		  
+	  </nav>
+      <!-- END OF DIV #TOP-NAVBAR -->
+      
+      
+      <!-- ******************************************************************** -->
+      
+      
+	  <!-- BEGIN DIV #MAIN-CONTENT-->
+	  <div id="main-content" class="fade out">
+  	  
+          <!-- BEGIN DIV #HOME -->
+          <div id="home">
+
+              <!-- div .row wraps thes col-md, col-lg from bootstrap -->
+              <div class="row background-solid">
+                  
+                  <!-- Big logo -->
+                  <img class="big-logo" src="img/wave-logo.svg" alt="Wave logo">
+                  
+                  <!-- Div #home .left-column -->
+                  <div class="col-md-7 col-lg-7 left-column tagline">
+                      
+                    <!-- #Home title -->
+                    <h1>Email that works as&nbsp;<strong>fast</strong>&nbsp;as&nbsp;you&nbsp;do.</h1>
+                      
+                    <!-- #Home description -->
+                    <h5>Hold instant conversations with anyone with&nbsp;an&nbsp;email&nbsp;address.</h5>
+                    <div class="video"><a href="#" onclick="vpStart()"><h5><img id="oHero" src="./img/buttons/play.png">Watch the video</h5></a></div>
+
+                    <!-- The download button container makes the download button to be centered -->
+                    <div class="download-button-container">
+                        
+                        <!-- Download button -->
+                        <p class="centering">
+                            <a class="download-button" href="https://itunes.apple.com/us/app/wave-instant-email-app-for/id948102602?ls=1&mt=8" target="_blank">
+                                <img src="img/buttons/appstore.svg" alt="App store button">
+                            </a><!-- End of download button -->
+                        </p>
+                    </div><!-- End of download button container -->
+                    <div class="gmail-only">
+                      <p class="centering" >
+                           Exclusive to Gmail and Google Apps
+                        </p>
+                    </div>
+                      
+                  </div>
+                      
+                  <!-- Div #home .right-column -->
+                  <div class="col-md-5 col-lg-5 right-column mockup1">
+
+                    <img src="img/mockup/iphone.png" />
+                  </div><!-- end of div #home .right-column -->
+
+                </div><!-- end of div .background-solid -->
+                  
+                  
+              </div><!-- end of div .row -->
+
+          <!-- END OF DIV #HOME -->
+
+      
+          <!-- ******************************************************************** -->
+
+
+          <!-- Div #features-target is the fake id that we use to jump when we click menu on top-navbar -->
+          <div id="features-target"></div>
+
+
+          <!-- ******************************************************************** -->
+      
+          
+          <!-- Div #ction-target is the fake id that we use to jump when we click menu on top-navbar -->
+          <div id="action-target"></div>
+      
+          <!-- ******************************************************************** -->
+
+
+          <!-- BEGIN DIV #WHY -->
+          <div class="brief feature1" id="why">  
+
+              <!-- Begin div .row -->
+              <div class="row">
+
+                <div class="col-md-5 col-lg-5 container-phones">
+
+                    <div>
+                        <img class="first-phone" src="img/mockup/feature1mockup.png" alt="Apps mockup">
+                    </div>
+
+
+                </div><!-- end of container-phones -->
+
+                <!-- Div #why - right column -->
+                <div class="col-md-7 col-lg-7 right-column">
+                    
+                    <!-- Div #why title -->
+                    <h1 class="title">Combine the <strong>speed</strong> of instant messaging with the power of email.</h1>
+
+
+                    <!-- Div .description -->
+                    <div class="container-description">
+                        
+                        <p class="why-description">
+                            Share short messages, attach photos, and hold group conversations on the go, while knowing everything is backed up by your inbox.
+                        </p>
+                                                
+                     </div><!-- end of div .description -->
+                    
+
+                  </div><!-- end of div #why right column -->
+
+              </div><!-- end of div .row -->
+
+          </div>
+          <!-- END OF DIV #WHY -->
+
+
+          <!-- ******************************************************************** -->
+      
+          <!-- BEGIN DIV #DESCRIBE -->
+          <div class="brief feature2" id="describe">  
+
+              <!-- Begin div .row -->
+              <div class="row">
+
+                <!-- Div #why - left column -->
+                <div class="col-md-6 col-lg-6 left-column">
+                    <h1 class="title">A beautiful, <strong>simple</strong> email&nbsp;experience.</h1>
+                    <!-- Div .description -->
+                    <div class="container-description">
+                        
+                        <p class="why-description">
+                            A clean interface that makes short work of long messages. No addresses, no quotes, no signatures.
+                        </p>
+                                                
+                     </div><!-- end of div .description -->
+
+                </div><!-- end of div #describe - right column -->
+
+                <!-- Container why phone wraps two mockup phones -->
+                <div class="col-md-6 col-lg-6 container-phones right-column">
+
+                    <!-- The second phone mockup -->
+                    <div>
+                        <img id="describe-first-phone" class="first-phone" src="img/mockup/feature2mockup.png" alt="Apps mockup">
+                    </div>
+                    
+                    <!-- The first phone mockup -->
+                    
+                </div><!-- end of container-phones -->
+
+            </div><!-- end of div .row -->
+
+          </div>
+          <!-- END OF DIV #DESCRIBE -->
+
+
+          <!-- ******************************************************************** -->
+      
+         <!-- ******************************************************************** -->
+          <div class="brief feature3" id="why">  
+
+              <!-- Begin div .row -->
+              <div class="row">
+
+                <div class="col-md-6 col-lg-6 container-phones">
+
+                    <!-- The first phone mockup -->
+                    <div >
+                        <img class="first-phone" src="img/mockup/feature3mockup.png" alt="Apps mockup">
+                    </div>
+
+
+                </div><!-- end of container-phones -->
+
+                <!-- Div #why - right column -->
+                <div class="col-md-6 col-lg-6 right-column">
+                    
+                    <!-- Div #why title -->
+                    <h1 class="title">Intelligent filtering that&nbsp;puts&nbsp;<strong>people&nbsp;first</strong>.</h1>
+
+                    <!-- Div .description -->
+                    <div class="container-description">
+                        
+                        <p class="why-description">
+                            Declutter your inbox by automatically filing away newsletters and social updates. Because email was made for talking with people, not robots.
+                        </p>
+                                                
+                     </div><!-- end of div .description -->
+
+                  </div><!-- end of div #why right column -->
+
+              </div><!-- end of div .row -->
+
+          </div>
+
+
+
+          
+          <!-- ******************************************************************** -->
+      
+          <!-- Div #downloads-describe is the fake id that we use to jump when we click menu on top-navbar -->
+          <div id="downloads-target"></div>
+      
+          <!-- BEGIN DIV #DOWNLOADS -->
+          <div id="downloads">
+              
+              <div class="background-solid">
+                  
+                  <h1 class="wow bounceIn" data-wow-offset="100">Get it <strong>now</strong>!</h1>
+              
+                  <div class="container-downloads wow fadeInUp" data-wow-offset="100">
+                      
+                      <p class="centering">
+                          <a href="https://itunes.apple.com/us/app/wave-instant-email-app-for/id948102602?ls=1&mt=8" target="_blank" class="appstore">
+                            <img src="img/buttons/appstore.svg" alt="Apple AppStore button">
+                          </a>
+                      </p>
+                   </div>
+                  
+              </div>
+              
+          </div>
+          
+
+          <!-- ******************************************************************** -->
+          
+
+          <!-- BEGIN FOOTER -->
+          <footer>
+                  
+            
+                    
+            <!-- Form description -->
+              
+            <div class="container-socmed wow fadeInUp" data-wow-offset="50">
+                <ul class="socmed">
+                    <li><a href="https://www.facebook.com/waveappteam" class="fa fa-facebook" title="Facebook"></a></li>  
+                    <li><a href="https://twitter.com/waveappteam" class="fa fa-twitter" title="Twtitter"></a></li>  
+                </ul>
+                <p class="footer-detail">&copy; 2014, WaveAppTeam &bull; <a href="./terms.html">Terms</a> &bull; <a href="./privacy.html">Privacy</a></p>
+            </div>
+          
+          </footer>
+          <!-- END OF FOOTER -->
+          
+      </div>
+      <!-- END OF DIV #MAIN-CONTENT -->
+    
+    <div id="pVideo" class="off" style="position: fixed;top:0px;left:0px;right:0px;bottom:0px;z-index:200">
+    <iframe id="oPlayer" src="http://player.vimeo.com/video/115890551?api=1" style="position: absolute;top: 0px;left:0px;right:0px;bottom:0px;" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+    
+      <!-- ******************************************************************** -->
+	  
+	  
+	  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      
+
+	  <script src="js/jquery.easing.min.js"></script>
+	  <script src="js/jquery.scrollTo.min.js"></script> <!-- plugin to scroll smoothly to a section when an has element triggered -->
+	  <script src="js/wow.min.js"></script> <!-- plugin to reveal animation when scrolling -->
+	  <script src="js/nivo-lightbox.min.js"></script> <!-- plugin to create a slideshow when you click on screenshot image -->
+	  <script src="js/owl.carousel.js"></script> <!-- plugin to create a carousel -->
+	  <script src="js/bootstrap.min.js"></script>
+	  <script src="js/switcher.js"></script>
+	  <script src="js/waypoints.min.js"></script> <!-- plugin to detect browser viewport. -->
+	  <script src="js/smoothScrolls.js"></script> <!-- plugin to make browser scroll smoothly -->
+	  <script src="js/jquery.stellar.min.js"></script> <!-- plugin to create parallax effect on backgroung image -->
+	  <script src="js/nprogress.js"></script> <!-- plugin to create progress animation when web on loading -->
+	  <script src="js/main.js"></script> <!-- plugin to create progress animation when web on loading -->
+	  <script src="js/ajax.js"></script> <!-- plugin to create progress animation when web on loading -->
+    <script type="text/javascript">
+        var _player = document.getElementById('oPlayer');
+        var _playerAPI=(_player.tagName.toUpperCase()=='VIDEO')?false:(_player.getAttribute('src').split('?')[0]);
+
+        if (_playerAPI) {
+          if (window.addEventListener){
+              window.addEventListener('message', vpMessage, false);
+          } else {
+            window.attachEvent('onmessage', vpMessage, false);
+          }
+        }
+
+        function vpStart() {
+          document.getElementById("pVideo").className="on";
+
+          if (!_playerAPI) {
+            _player.play();
+            return;
+          }
+          vpApi('play');
+        }
+
+        function vpStop() {
+          document.getElementById("pVideo").className="off";
+        }
+
+        function vpApi(action, value) {
+            var data = { method: action };
+            
+            if (value) {
+                data.value = value;
+            }
+            _player.contentWindow.postMessage(JSON.stringify(data),_playerAPI);
+        }
+
+        function vpMessage(e) {
+          var data = JSON.parse(e.data);
+            switch (data.event) {
+            case 'ready':
+              vpApi('addEventListener', 'pause');
+              vpApi('addEventListener', 'finish');
+              break;
+            case 'pause':
+            case 'finish':
+              vpStop();
+              break;
+          }
+        }
+
+
+
+
+</script>
+	  
+  </body>
+</html>
