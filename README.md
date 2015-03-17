@@ -1,2 +1,2 @@
-# wave.github.io
-Wave Landing Page
+
+#Wave Landing Page
